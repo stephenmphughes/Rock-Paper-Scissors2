@@ -1,0 +1,35 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+}
+.card {
+border: 5px;
+border-color: black;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+  }
+   
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    align-items: center;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+ 
+  }
+  .row {
+    justify-content: center;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
